@@ -9,6 +9,8 @@ body{
     background-color: #131313;
 }
 
+img{display:block; margin:0; padding:0; border:0;}
+
 .clear{
     clear:both;
 }
@@ -119,16 +121,15 @@ div.wrapper{
 }
 #latest .fl_right{
     display:block; 
-    float:right; 
-    width:360px; 
-    height:280px; 
-    padding:10px; 
-    color:#333333; 
-    background-color:#FDC609;
+    margin-left: 7px;
+    float:left; 
+    width:575px; 
+    height:300px;
 }
-#latest .fl_right h2, #latest .fl_right pre{
+#latest .fl_right h2, #latest .fl_right p{
     margin:0 0 12px 0; 
-    padding:0; border:none; 
+    padding:0px;
+    border:none; 
     line-height:normal;
 }
 
