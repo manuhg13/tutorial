@@ -146,3 +146,55 @@ div.wrapper{
 #latest ul li.last{
     margin-right:0;
 }
+
+/*Footer*/
+
+#footer{
+    display:block; 
+    position:relative; 
+    width:1750px; 
+    margin:0 auto; 
+    padding:20px; 
+    color:#98989A; 
+    background-color:#232323;
+}
+
+#footer a{
+    color:#FDC609; 
+    background-color:#232323;
+}
+
+#footer h2{
+    margin-bottom:10px; 
+    border-bottom-color:#98989A;
+}
+
+#footer p, #footer ul, #footer a{
+    margin:0; 
+    padding:0; 
+    font-weight:normal; 
+    list-style:none; 
+    line-height:normal;
+}
+
+#footer .footbox{
+    display:block; 
+    float:right; 
+    width:190px; 
+    margin:0 0 0 15px; 
+    padding:0;
+}
+
+#footer li{
+    margin-bottom:3px;
+}
+
+#footer .last{
+    margin:0;
+}
+
+#newsletter{
+    display:block; 
+    float:left; 
+    width:300px;
+}
