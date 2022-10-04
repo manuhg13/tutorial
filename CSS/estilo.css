@@ -110,7 +110,7 @@ div.wrapper{
     padding:20px 0 0 0;
 }
 #latest .fl_left{
-    margin-left: 15px;
+    margin-left: 30px;
     display:block; 
     float:left; 
     width:360px; 
@@ -154,7 +154,8 @@ div.wrapper{
     position:relative; 
     width:1750px; 
     margin:0 auto; 
-    padding:20px; 
+    padding:20px;
+    margin-top: 50px;
     color:#98989A; 
     background-color:#232323;
 }
@@ -177,9 +178,16 @@ div.wrapper{
     line-height:normal;
 }
 
-#footer .footbox{
+#footer .footboxR{
     display:block; 
     float:right; 
+    width:190px; 
+    margin:0 0 0 15px; 
+    padding:0;
+}
+#footer .footboxL{
+    display:block; 
+    float:left; 
     width:190px; 
     margin:0 0 0 15px; 
     padding:0;
@@ -197,4 +205,43 @@ div.wrapper{
     display:block; 
     float:left; 
     width:300px;
+}
+
+/*Intro*/
+
+#intro{
+    padding:25px 0 15px 0;
+}
+#intro ul{
+    margin:0; 
+    padding:0; 
+    list-style:none;
+}
+#intro li{
+    display:block; 
+    float:left; 
+    width:300px; 
+    margin:0 30px 0 30px; 
+    padding:0;
+}
+#intro li.last{
+    margin-right:0;
+}
+#intro h2, #intro p, #intro img, #intro div{
+    margin:0 0 20px 0; 
+    padding:0;
+}
+#intro h2{
+    padding-bottom:8px; 
+    color:#FFFFFF; 
+    background-color:#131313;
+}
+#intro div.imgholder{
+    display:block; 
+    width:300px;
+}
+#intro div.imgholder img{
+    margin:0; 
+    padding:0; 
+    border:none;
 }
