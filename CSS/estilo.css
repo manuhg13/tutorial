@@ -224,6 +224,13 @@ div.wrapper{
     margin:0 30px 0 30px; 
     padding:0;
 }
+#intro li.in{
+    display:block; 
+    float:left; 
+    width:300px; 
+    margin:0 30px 20px 30px; 
+    padding:0;
+}
 #intro li.last{
     margin-right:0;
 }
