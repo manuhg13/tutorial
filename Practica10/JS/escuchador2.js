@@ -1,6 +1,6 @@
 let i=1;
 function colorear(){
-    this.style.backgroundColor='lightorange';
+    this.style.backgroundColor='lightblue';
     if (i<=4) {
         this.innerHTML+=`-${i++}`;
     }
